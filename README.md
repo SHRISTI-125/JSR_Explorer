@@ -1,4 +1,4 @@
-## JSR_EXPLORER
+## JSR_GUIDE
 <h2>About:<br>
   <h4>
     JSR_Guide is a city guide of Jamshedpur.
