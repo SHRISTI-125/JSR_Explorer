@@ -1,7 +1,7 @@
 ## JSR_EXPLORER
 <h2>About:<br>
   <h4>
-    JSR_Explorer is a city guide of Jamshedpur.
+    JSR_Guide is a city guide of Jamshedpur.
     It serves as an informative online platform dedicated to Jamshedpur. 
     It offers insights into various aspects of the city, including its culture, infrastructure, transportation, industries, sports, and educational institutions.
     This project aims to deepen the understanding of Jamshedpur’s unique characteristics while providing an user-friendly navigation experience.
@@ -9,7 +9,7 @@
 </h2>
 
 ## Demo
-Checkout the live project here : [JSR_Explorer](https://jamshedpur-guide-by-shristi-kumari.netlify.app/)
+Checkout the live project here : [JSR_Guide](https://jamshedpur-guide-by-shristi-kumari.netlify.app/)
 
 ## Features
 
@@ -37,7 +37,7 @@ Checkout the live project here : [JSR_Explorer](https://jamshedpur-guide-by-shri
 </ul>
 
 ## Usage
-JSR_Explorer is designed for anyone interested in learning about Jamshedpur.
+JSR_Guide is designed for anyone interested in learning about Jamshedpur.
 The user-friendly interface makes it simple to navigate between topics and find relevant information.
 It is useful for anyone who want to know about what makes Jamshedpur unique.
 
