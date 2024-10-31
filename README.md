@@ -3,7 +3,7 @@
   <h4>
     JSR_Guide is a city guide of Jamshedpur.
     It serves as an informative online platform dedicated to Jamshedpur. 
-    It offers insights into various aspects of the city, including its culture, infrastructure, transportation, industries, sports, and educational institutions.
+    It offers insights into various aspects of the city, including its culture, infrastructure, industries, educational institutions and few famous places.
     This project aims to deepen the understanding of Jamshedpur’s unique characteristics while providing an user-friendly navigation experience.
   </h4>
 </h2>
@@ -15,7 +15,7 @@ Checkout the live project here : [JSR_Guide](https://jamshedpur-guide-by-shristi
 
   <ul>
     <li>
-      Comprehensive Information: Detailed insights into Jamshedpur's culture, infrastructure, transportation, industries, sports and educational institutions.
+      Comprehensive Information: Detailed insights into Jamshedpur's infrastructure, transportation, industries, and few famous places.
     </li>
     <li>
       Clean UI: Easy to navigate and inhance user experience.
