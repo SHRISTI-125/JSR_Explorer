@@ -1,0 +1,15 @@
+[
+    {
+      "name": "Dalma Hills",
+      "image": "img/hills/dalma_hill.png",
+      "about": "Dalma Hills is a popular destination near Jamshedpur, known for its lush greenery and panoramic views. This area also hosts the Dalma Wildlife Sanctuary, home to a range of flora and fauna, including elephants, leopards, and various bird species. The hilltop provides a beautiful view of the city and the Subarnarekha River.",
+      "address": "Dalma Wildlife Sanctuary, Near NH33, Jamshedpur, Jharkhand 832401"
+    },
+    {
+      "name": "Hudco Lake Hill",
+      "image": "img/hills/hudco_hill.png",
+      "about": "Hudco Lake is a picturesque spot located on a hill in Jamshedpur’s Telco area. It’s famous for its serene environment, scenic lake, and landscaped gardens, making it ideal for picnics and day trips. The hill offers a lovely panoramic view of the surrounding areas, including the Telco Colony.",
+      "address": "Telco Colony, Jamshedpur, Jharkhand 831010"
+    }
+  ]
+  

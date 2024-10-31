@@ -1,0 +1,167 @@
+*{
+  margin:0;
+  padding:0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+:root{
+  --navbar-height: 59px;
+}
+#navbar{
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+#navbar ul{
+  display:flex
+}
+#navbar{
+  background: linear-gradient(135deg, rgba(254, 253, 253, 0.886), rgba(254, 253, 253, 0.886));
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(250, 248, 248, 0.93);
+  border: 1px solid rgba(210, 243, 246, 0.76);
+  border-radius: 10px;
+}
+#navbar::before{
+  content: " ";
+  background-color: rgb(142, 214, 247);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0px;
+  left: 0px;
+  z-index: -1;
+}
+#navbar ul li{
+  list-style:none;
+  font-size: 1rem;
+}
+#navbar ul li a{
+  color:rgb(2, 107, 128);
+  display:block;
+  padding:3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#navbar ul li a:hover{
+  color:rgb(249, 24, 133);
+  background-color: rgb(249, 250, 250);
+  text-decoration:double;
+}
+
+
+#column{
+    height: 700px;
+    padding: 0px 5px 18px 121px;
+    
+}
+#column::before{
+    height: 400px;
+}
+#column p{
+    font-size: 12px;
+}
+
+#column{
+    flex-wrap: wrap;
+}
+#project .row{
+    float:left ;
+  display:-webkit-inline-flex;
+}
+#project .column{
+    padding: 14px;
+    margin: 2px 15px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background: rgb(248, 215, 237);
+}
+#project .column img{
+    border-radius: 10%;
+}
+
+.head {
+  color: darkslategray;
+  font-family: 'Tangerine', serif;
+font-size: 78px;
+text-shadow: 4px 4px 4px #aaa;
+font: 2rem sans-serif;
+padding: 10px;
+}
+.heading {
+  font: 1.1em sans-serif;
+  color:rgb(1, 46, 52);
+  padding: 45px;
+}
+
+h5.heading {
+font-size: 1.2rem; 
+}
+.museum{
+margin: 10px;
+}
+.museum{
+background: linear-gradient(135deg, rgba(255, 255, 255, 0.723), rgba(255,255,255,0));
+-webkit-backdrop-filter: blur(80px);
+box-shadow: 0 8px 32px 0 rgb(188, 188, 190);
+border: 1px solid rgba(234, 245, 249, 0.958);
+border-radius: 15px;
+}
+
+#div1{
+    background: url("https://wallpaperset.com/w/full/f/6/b/171251.jpg") no-repeat 100%;
+    background-size: cover;
+    color: rgb(20, 93, 1);
+    margin: -8px;
+    margin-left: -8px;
+    padding: 50px 50px 50px 50px;
+    height: 728px; 
+    text-align: center;
+}
+
+#logo img{
+  height: 175px;
+  width: 20%;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  
+}
+#bubble-cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(12, 146, 163, 0.773); 
+  pointer-events: none;
+  transition: transform 0.1s ease;
+}
+.bubble {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: rgba(149, 211, 246, 0.8);
+  animation: rise 1s infinite ease-in-out;
+}
+
+@keyframes rise {
+  0% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  50%{
+      transform: scale(1.5);
+      opacity: 0.5;
+  }
+  100% {
+      transform: scale(2);
+      opacity: 0;
+  }
+}
